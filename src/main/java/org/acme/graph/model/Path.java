@@ -14,4 +14,8 @@ public class Path {
 	public List<Edge> getListEdge() {
 		return listEdge;
 	}
+	
+	public void addEdge(Edge edge) {
+		this.getListEdge().add(edge);
+	}
 }
